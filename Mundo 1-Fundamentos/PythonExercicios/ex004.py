@@ -1,0 +1,28 @@
+print('===== DESAFIO 004 =====')
+
+x = input('Digite algo aqui: ')
+
+print('O que voce digitou possui Numeros?', x.isnumeric())
+print('O que voce digitou possui Letras?', x.isalpha())
+print('O que voce digitou possui Numeros ou Letras?', x.isalnum())
+print('O que voce digitou esta Totalmente Maiusculo?', x.isupper())
+# ======================  CORRIGIDO  ====================== #
+
+print('PÓS CORREÇÃO----------------------------------')
+print('O tipo primitivo desse dado é: ',type(x))
+print('Só tem espaços? ', x.isspace())
+print('É um Número?', x.isnumeric())
+print('É um alfabético?', x.isalpha())
+print('É alfanumérico?', x.isalnum())
+print('Está em maiúsculas? ', x.isupper())
+print('Está em Minusculas? ', x.islower())
+print('Está capitalizada? ', x.istitle())
+print('Desafio EXTRA   ----------------------------------')
+print(f'O tipo primitivo desse dado é: {type(x)}')
+print(f'Só tem espaços? {x.isspace()}')
+print(f'É um Número? {x.isnumeric()}')
+print(f'É um alfabético? {x.isalpha()}')
+print(f'É alfanumérico? {x.isalnum()}')
+print(f'Está em maiúsculas? {x.isupper()}')
+print(f'Está em Minusculas? {x.islower()}')
+print(f'Está capitalizada? {x.istitle()}')

@@ -1,0 +1,13 @@
+frase = 'Curso em Vídeo Python'
+print(len(frase))
+print('Utilizando metodo replace')
+print(frase.replace('Python', 'Android'))
+print('Utilizando função in')
+print('Curso' in frase)
+print('Utilizando metodo lower + find')
+print(frase.lower().find('vídeo'))
+print('Utilizando localização dentro da frase')
+print(frase[3:14])
+print('Utilizando metodo split para dividir')
+dividido = frase.split()
+print(dividido[2])
